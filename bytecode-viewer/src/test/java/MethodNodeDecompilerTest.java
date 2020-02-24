@@ -17,8 +17,10 @@ public class MethodNodeDecompilerTest {
 
 
     @Test
-    //Depends on gui, that is not instantiated
+    //Depends on gui, that is not instantiated,absolutly impossible to test
     public void decompileTest() throws IOException {
+        BytecodeViewer f = new BytecodeViewer();
+        System.out.println(BytecodeViewer.python3);
         File source = new File("../bytecode-viewer/bytecode-viewer/src/test/resources/TestSourceCorrect.class");
         ClassReader classReader = new ClassReader(FileUtils.readFileToByteArray(source));
         ClassNode classNode = new ClassNode();
