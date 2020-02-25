@@ -22,7 +22,6 @@ public class FieldNodeDecompilerTest {
         node.name = "name";
         node.desc = Type.getDescriptor(String.class);
 
-        System.out.println();
         String actualResult = FieldNodeDecompiler.decompile(builder, node).toString();
         Assertions.assertEquals("public java.lang.String name = \"String\";", actualResult);
     }
@@ -36,7 +35,6 @@ public class FieldNodeDecompilerTest {
         node.name = "name";
         node.desc = Type.getDescriptor(String.class);
 
-        System.out.println();
         String actualResult = FieldNodeDecompiler.decompile(builder, node).toString();
         Assertions.assertEquals("public java.lang.String name;", actualResult);
     }
