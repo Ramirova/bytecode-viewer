@@ -1,5 +1,4 @@
 import org.objectweb.asm.tree.ClassNode;
-
 import the.bytecode.club.bytecodeviewer.decompilers.bytecode.ClassNodeDecompiler;
 import static org.junit.jupiter.api.Assertions.*;
 

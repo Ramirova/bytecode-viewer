@@ -15,7 +15,6 @@ import org.apache.commons.lang3.StringEscapeUtils;
 import org.objectweb.asm.Type;
 import org.objectweb.asm.tree.*;
 
-import org.objectweb.asm.tree.analysis.Frame;
 import the.bytecode.club.bytecodeviewer.BytecodeViewer;
 import eu.bibl.banalysis.asm.desc.OpcodeInfo;
 

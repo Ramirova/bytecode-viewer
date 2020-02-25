@@ -1,9 +1,4 @@
-package the.bytecode.club.bytecodeviewer.decompilers.bytecode;
-
-import com.sun.source.tree.AssertTree;
-import jdk.nashorn.internal.codegen.types.Type;
-import org.objectweb.asm.tree.ClassNode;
-
+import the.bytecode.club.bytecodeviewer.decompilers.bytecode.TypeAndName;
 import static org.junit.jupiter.api.Assertions.*;
 
 class TypeAndNameTest {

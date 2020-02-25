@@ -1,7 +1,6 @@
 import org.junit.jupiter.api.Assertions;
 import org.objectweb.asm.tree.AbstractInsnNode;
 import org.objectweb.asm.tree.InsnList;
-import jd.core.model.instruction.bytecode.instruction.Instruction;
 import org.junit.jupiter.api.Test;
 import the.bytecode.club.bytecodeviewer.decompilers.bytecode.InstructionPattern;
 import the.bytecode.club.bytecodeviewer.decompilers.bytecode.InstructionSearcher;
@@ -10,7 +9,7 @@ import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
-public class instructionSearcher {
+public class InstructionSearcherTest {
 
     @Test
     public void getSizeTest(){

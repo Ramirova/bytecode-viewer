@@ -1,21 +1,14 @@
-package the.bytecode.club.bytecodeviewer.decompilers.bytecode;
-
-import com.sun.org.apache.xalan.internal.xsltc.dom.ArrayNodeListIterator;
-import com.sun.org.apache.xpath.internal.NodeSet;
-import com.sun.xml.internal.ws.util.xml.NodeListIterator;
 import org.junit.jupiter.api.Test;
 import org.objectweb.asm.tree.*;
-import org.w3c.dom.NodeList;
-import the.bytecode.club.bytecodeviewer.BytecodeViewer;
+import the.bytecode.club.bytecodeviewer.decompilers.bytecode.InstructionPrinter;
+import the.bytecode.club.bytecodeviewer.decompilers.bytecode.TypeAndName;
 
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.IOException;
-import java.io.InputStream;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
-import java.util.ListIterator;
 
 import static org.junit.jupiter.api.Assertions.*;
 

@@ -1,4 +1,3 @@
-import com.sun.org.apache.xpath.internal.compiler.OpCodes;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.objectweb.asm.Opcodes;
@@ -8,7 +7,6 @@ import the.bytecode.club.bytecodeviewer.decompilers.bytecode.FieldNodeDecompiler
 import the.bytecode.club.bytecodeviewer.decompilers.bytecode.PrefixedStringBuilder;
 
 import static org.mockito.Mockito.mock;
-import static org.mockito.Mockito.when;
 
 
 public class FieldNodeDecompilerTest {
